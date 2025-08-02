@@ -12,12 +12,12 @@ The program is currently set up with this hardcoded string in main.c: "int long_
 When the program is executed, the previously mentioned input will be tokenized and each token will be printed.
 
 ## Example:
-<KEYWORD, "int">
-<IDENTIFIER, "long_variable_name">
-<SYMBOL, "=">
-<NUMBER, "123456789"
-<SYMBOL, ";">
-<EOF, "">
+- <KEYWORD, "int">
+- <IDENTIFIER, "long_variable_name">
+- <SYMBOL, "=">
+- <NUMBER, "123456789"
+- <SYMBOL, ";">
+- <EOF, "">
 
 ## Additional informations:
 1. This lexer supports basic keywords: int, float, char, if, else, return, void, while, for.
